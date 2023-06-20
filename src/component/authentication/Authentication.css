@@ -1,0 +1,180 @@
+/* Login */
+.login-form .input-group .password{
+ font-size: 25px;
+}
+
+.login-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 20px; */
+    width: 100vw;
+    height: 100vh;
+    max-width:100%;
+    background-color: #E1E1E1;
+
+}
+
+/* left side classes */
+.login-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E1E1E1;
+    /* border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    /* background-color: #E1E1E1; */
+
+}
+.banner-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+.e-ostad-logo{
+width: 30%;
+margin-left: 18%;
+}
+.e-ostad-banner{
+    width: 85%;
+    height: 75%;
+}
+
+/* right side classes */
+.right-inner-container {
+    width: 55%;
+}
+/* 
+.welcome-text{
+
+} */
+.welcome-text > h1 {
+    margin-bottom: 10px;
+    font-size: 3.8vmax;
+}
+.welcome-text > p {
+    margin-bottom: 10px;
+    color: #8F8686;
+    font-size: 1.6vmax;
+}
+/* .login-form-div{
+
+} */
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-input-field{
+  border: none;
+  margin: 10px 0 10px 0;
+  padding: 10px 0 10px 10px;
+  background-color: #fff;
+}
+.login-button {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background: #023047;
+    color: #fff;
+    font-weight: 500;
+    /* border: navajowhite; */
+}
+.login-container-right{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-top-left-radius: 30px;
+ border-bottom-left-radius: 30px;
+ background-color: #fff;
+}
+.remember-forgotpass-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 1.3vmax;
+}
+.remember-forgotpass-div a {
+    text-decoration: none;
+    color: #121212;
+}
+.mobile{
+    display: none;
+}
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type="password"] {
+       -webkit-text-stroke-width: 0.2em;
+       letter-spacing: 0.2em;
+    }
+} */
+
+/* media query */
+@media screen and (max-width: 1000px) {
+    .mobile{
+        display: block;
+    }
+    .login-container-left{
+        display: none;
+    }
+    .login-container-right {
+        width: 100vw;
+        display: flex;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .e-ostad-logo-mobile {
+        width: 100%;
+        /* margin-left: 45px; */
+    }
+    .right-inner-container {
+        width: 75%;
+        margin-bottom: 20%;
+    }
+    .welcome-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome-text > h1 {
+        font-size: 4.8vmax;
+    }
+    .welcome-text > p {
+        font-size: 2.5vmax;
+    }
+}
+@media screen and (max-width: 600px) {
+    .mobile{
+        display: block;
+    }
+    .login-container-left{
+        display: none;
+    }
+    .login-container-right {
+        width: 100vw;
+        display: flex;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+    }
+    .e-ostad-logo-mobile {
+        width: 75%;
+        margin-left: 45px;
+    }
+    .right-inner-container {
+        width: 75%;
+        margin-bottom: 45%;
+    }
+    .welcome-text > h1 {
+        font-size: 4.8vmax;
+    }
+    .welcome-text > p {
+        font-size: 2.5vmax;
+    }
+    .remember-forgotpass-div{
+        font-size: 2vmax;
+    }
+}
+/* End Login Css */

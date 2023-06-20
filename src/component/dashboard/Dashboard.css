@@ -1,0 +1,28 @@
+/* .wrap-component{
+    
+} */
+.dash-card{
+    /* background-color:#023047; */
+    color: #fff;
+    height: 170px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.total-lounge-card{
+    padding: 20px;
+    margin-top: 20px;
+    background: #126782;
+    border-radius: 20px;
+}
+.active-block{
+    width: 10px;
+    height: 10px;
+    background: #023047;
+    margin-bottom: 5px;
+}
+.de-active-block{
+    width: 10px;
+    height: 10px;
+    background: #8ecae6;
+}

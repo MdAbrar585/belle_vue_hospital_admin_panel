@@ -1,0 +1,8 @@
+.resend-btn button{
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: none;
+    background: #023047;
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+button:focus {outline:0;}
+.drawer-width-container{
+    /* width: 60vw; */
+}
+.custom-button{
+    cursor: pointer;
+    padding: 10px 85px;
+    border-radius: 25px;
+    border: none;
+    background: #023047;
+    color: #fff;
+}

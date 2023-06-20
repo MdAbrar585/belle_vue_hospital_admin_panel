@@ -1,0 +1,17 @@
+.user-table-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px 0px 10px 0px;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+    width: 50% !important;
+}
+.add-user-button {
+    cursor: pointer;
+    padding: 10px 85px;
+    border-radius: 25px;
+    border: none;
+    background: #023047;
+    color: #fff;
+}

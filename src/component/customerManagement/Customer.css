@@ -1,0 +1,18 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    width: 50% !important;
+}
+.customer-btn-div > input[type="file"] {
+    display: none;
+    /* position: relative; */
+    margin-right: 8px;
+  top: 150px;
+  font-family: calibri;
+  width: 150px;
+  padding: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px dashed #BBB;
+  text-align: center;
+  background-color: #DDD;
+  cursor: pointer;
+}
